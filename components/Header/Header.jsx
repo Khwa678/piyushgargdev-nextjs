@@ -168,7 +168,7 @@ const Header = () => {
                     title="Youtube Channel"
                     id="youtube-channel"
                     className={`cursor-pointer size-48px text-[#ffffff] hover:text-[--site-theme-color] transform ease-in-out hover:-translate-y+1 hover:scale-150`}
-                    rel="noreferrer"
+                    rel="noreferrer"   style={{fontSize:'1.5rem'}}
                   >
                     <RiYoutubeFill />
                   </Link>
@@ -179,7 +179,7 @@ const Header = () => {
                     title="Github Account"
                     id="github-account"
                     className={`size-48px cursor-pointer text-[#ffffff] hover:text-[--site-theme-color] transform ease-in-out hover:-translate-y+1 hover:scale-150`}
-                    rel="noreferrer"
+                    rel="noreferrer"   style={{fontSize:'1.5rem'}}
 
                   >
                     <RiGithubFill />
@@ -192,6 +192,7 @@ const Header = () => {
                     id="twitter-account"
                     className={`cursor-pointer size-48px text-[#ffffff] hover:text-[--site-theme-color] transform ease-in-out hover:-translate-y+1 hover:scale-150`}
                     rel="noreferrer"
+                    style={{fontSize:'1.5rem'}}
                   >
                     <NewTwitterLogo/>
                   </Link>
@@ -201,8 +202,9 @@ const Header = () => {
                     target="_blank"
                     title="LinkedIn Account"
                     id="linkedin-account"
-                    className={`cursor-pointersize-48px text-[#ffffff] hover:text-[--site-theme-color] transform ease-in-out hover:-translate-y+1 hover:scale-150`}
+                    className={`cursor-pointer height-65px  width-11rem text-[#f4f4f4] hover:text-[--site-theme-color] transform ease-in-out hover:-translate-y+1 hover:scale-150`}
                     rel="noreferrer"
+                    style={{fontSize:'1.5rem'}}
                   >
                     <RiLinkedinFill />
                   </Link>
